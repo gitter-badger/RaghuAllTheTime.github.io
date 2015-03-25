@@ -7,11 +7,9 @@ p {
 	font-family: "Anders";
 }
 
-.largeholder {
-	height:100%;
-	width: 100%;
-}
-
-.mainholder {
-	background-image: url('../img/epicheader.jpg');
+.jumbotron {
+  background-image:url('http://goo.gl/04j7Nn');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
