@@ -1,0 +1,7 @@
+@font-face {
+	font-family: "Anders";
+	url: ('../fonts/Anders.ttf')  format('truetype');	
+}
+p {
+	font-family: "Anders";
+}
