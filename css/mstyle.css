@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "Anders";
-	url: ('../fonts/Anders.ttf')  format('truetype');	
+	src: url('../fonts/Anders.ttf')  format('truetype');	
 }
 
 @font-face {
 	font-family: "Metropolis";
-	url: ('../fonts/Metropolis.otf') format('opentype');
+	src: url('../fonts/Metropolis.otf') format('opentype');
 }
 
 .jumbotron {
