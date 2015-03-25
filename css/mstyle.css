@@ -12,5 +12,5 @@ p {
 }
 
 .mainholder {
-	img: url('../img/epicheader.jpg');
+	background-image: url('../img/epicheader.jpg');
 }
