@@ -4,32 +4,32 @@
 }
 
 @font-face {
-<<<<<<< HEAD
+
 	font-family: "Chesbone";
 	url: ('../fonts/chesbone.ttf') format('truetype');
-=======
+
 	font-family: "Metropolis";
 	src: url('../fonts/Metropolis.otf') format('opentype');
->>>>>>> origin/master
+
 }
 
 .jumbotron {
-  background-image:url('../img/epicheader.jpg');
-  height: 795px;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-image:url('../img/epicheader.jpg');
+	height: 795px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .jumbotron .container {
-  position: relative;
-  top:100px;
+	position: relative;
+	top:100px;
 }
 
 .jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px; 
 }
 
 .headfirst {
