@@ -13,6 +13,14 @@
 
 }
 
+@keyframes largertext {
+	0%  {font-size:61px;}
+	25% {font-size:62px;}
+	50% {font-size:63px;}
+	75% {font-size:64px;}
+	100% {font-size:65px;}
+}
+
 /**
  * 	Classes
  * jumbotron
@@ -24,11 +32,9 @@
  *
  */
  
-a.navbar-brand {
-	font-family: 'Anders';
-}
 
-.jumbotron {
+
+#huge {
 	background-image:url('../img/epicheader.jpg');
 	height: 795px;
 	background-repeat: no-repeat;
@@ -45,11 +51,17 @@ a.navbar-brand {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 90px; 
+	font-size:60px;
+}
+
+.jumbotron h1:focus {
+	animation-name: largertext;
+	animation-duration: 0.1s;
 }
 
 .headfirst {
 	font-family: 'Lato', sans-serif; 
-	font-weight: bolder;
+	font-weight: bold;
 }
 
 .headsecond {
@@ -67,6 +79,7 @@ body, html {
     overflow:hidden;
     font-family: helvetica;
     font-weight: 100;
+    bgcolor: #cc0000;
 }
 .container {
     position: relative;
@@ -126,6 +139,11 @@ top: 0;
 #sidebar ul li:hover a {
     background: #303030;
 }
+
+#backdrop {
+	background-color: #BA4B00;
+}
+
 .main-content {
     width: 100%;
     height: 100%;
@@ -148,7 +166,7 @@ width: 100%;
     line-height: 160%;
 }
 .main-content #sidebar-toggle {
-    background: #000;
+    background: orange;
     border-radius: 3px;
     display: block;
     position: relative;
