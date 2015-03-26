@@ -4,8 +4,8 @@
 }
 
 @font-face {
-	font-family: "Metropolis";
-	url: ('../fonts/Metropolis.otf') format('opentype');
+	font-family: "Chesbone";
+	url: ('../fonts/chesbone.ttf') format('truetype');
 }
 
 .jumbotron {
@@ -15,18 +15,16 @@
   background-size: cover;
 }
 
-div.container {
-    height: 10em;
-    position: relative 
+.jumbotron .container {
+  position: relative;
+  top:100px;
 }
-div.container h1 {
-	color: #fff;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
 }
 
 .headfirst {
@@ -39,7 +37,7 @@ div.container h1 {
 }
 
 .headthird {
-	font-family: 'Metropolis';
+	font-family: 'Chesbone';
 }
 
 
@@ -56,3 +54,4 @@ div.container h1 {
 
 
 
+																																	
