@@ -1,11 +1,16 @@
 @font-face {
 	font-family: "Anders";
-	url: ('../fonts/Anders.ttf')  format('truetype');	
+	src: url('../fonts/Anders.ttf')  format('truetype');	
 }
 
 @font-face {
+<<<<<<< HEAD
 	font-family: "Chesbone";
 	url: ('../fonts/chesbone.ttf') format('truetype');
+=======
+	font-family: "Metropolis";
+	src: url('../fonts/Metropolis.otf') format('opentype');
+>>>>>>> origin/master
 }
 
 .jumbotron {
