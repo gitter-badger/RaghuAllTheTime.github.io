@@ -4,14 +4,15 @@
 }
 
 @font-face {
-
-	font-family: "Chesbone";
-	src: url('../fonts/chesbone.ttf') format('truetype');
-
 	font-family: "Metropolis";
 	src: url('../fonts/Metropolis.otf') format('opentype');
-
 }
+
+@font-face {
+	font-family: "Chesbone";
+	src: url('../fonts/chesbone.ttf') format('truetype');
+}
+
 
 @keyframes largertext {
 	0%  {font-size:61px;}
@@ -32,6 +33,11 @@
  *
  */
  
+
+
+.sidebar ul li {
+	font-family: 'Anders';
+}
 
 
 #huge {
