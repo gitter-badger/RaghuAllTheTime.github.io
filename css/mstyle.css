@@ -23,6 +23,10 @@
  * headthird
  *
  */
+ 
+a.navbar-brand {
+	font-family: 'Anders';
+}
 
 .jumbotron {
 	background-image:url('../img/epicheader.jpg');
