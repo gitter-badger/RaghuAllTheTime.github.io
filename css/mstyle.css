@@ -34,6 +34,8 @@
  * headthird
  *
  */
+ 
+/* font-families */
 .metro {
 	font-family: "Metropolis";
 } 
@@ -55,10 +57,15 @@
 }
  
 .welcome {
-	background-color: red;
-	opacity:0.8;
-    filter:alpha(opacity=40); /* For IE8 and earlier */
+	background-color: #800000;
+	opacity: 0.8;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+    width: 100%;
+    text-align: center;
+    color: #808080;
 }
+
+
  
 .navbar a{
 	font-family: "Lato";
@@ -87,7 +94,7 @@
 	background-size: cover;
 	-moz-background-size: cover;
     -webkit-background-size: cover;
-  	position: absolute;
+  	
 }
 
 
