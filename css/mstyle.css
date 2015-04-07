@@ -34,6 +34,31 @@
  * headthird
  *
  */
+.metro {
+	font-family: "Metropolis";
+} 
+
+.anders {
+	font-family: "Anders";
+}
+
+.chesbone {
+	font-family: "Chesbone";
+}
+
+.nexabold {
+	font-family: "Nexa Bold";
+}
+
+.nexalight {
+	font-family: "Nexa Light";
+}
+ 
+.welcome {
+	background-color: red;
+	opacity:0.8;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
  
 .navbar a{
 	font-family: "Lato";
@@ -54,31 +79,44 @@
 	text-transform: uppercase;
 }
 
-
-#huge {
+#title {
 	background-image:url('../img/epicheader.png');
-	height: 795px;
+	height: 100%;
+	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	-moz-background-size: cover;
     -webkit-background-size: cover;
-  
+  	position: absolute;
 }
 
 
 
 .jumbo .container {
 	position: relative;
-	top:100px;
+	top: 30%;
 }
 
 .jumbo h1 {
 	color: #fff;
 	text-align: center;
-	vertical-align: middle;
 	line-height: 90px; 
 	font-size:60px;
+	transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -webkit-transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -moz-transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
+
+.jumbo h1:hover {
+	font-size:65px;
+    transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -webkit-transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -moz-transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    -o-transition: 0.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    
+}
+
 
 .headfirst {
 	font-family: 'Lato', sans-serif; 
