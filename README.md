@@ -1,2 +1,2 @@
 # RaghuAllTheTime.github.io
-Raghu allthetime's website!!
+[![License](http://img.shields.io/badge/License-MIT-blue.svg)](http://opensource.org/licenses/MIT)
